@@ -1,0 +1,11 @@
+Dependencies for Project 'facts', Target 'Target 1': (DO NOT MODIFY !)
+F (.\facts.s)(0x5C6468E0)(--cpu Cortex-M4 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "ARMCM4 SETA 1"--list .\listings\facts.lst --xref -o .\objects\facts.o --depend .\objects\facts.d)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Lib\ARM\arm_cortexM4l_math.lib)(0x58991C7E)()
+F (RTE\Device\ARMCM4\startup_ARMCM4.s)(0x58991C82)(--cpu Cortex-M4 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "ARMCM4 SETA 1"--list .\listings\startup_armcm4.lst --xref -o .\objects\startup_armcm4.o --depend .\objects\startup_armcm4.d)
+F (RTE\Device\ARMCM4\system_ARMCM4.c)(0x58991C82)(--c99 -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM4\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -D_RTE_ -DARMCM4-o .\objects\system_armcm4.o --omf_browse .\objects\system_armcm4.crf --depend .\objects\system_armcm4.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM4\Include\ARMCM4.h)(0x58991C82)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h)(0x58991C7A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C5634)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x58991C7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x58991C7A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM4\Include\system_ARMCM4.h)(0x58991C82)

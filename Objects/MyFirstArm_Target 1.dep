@@ -1,0 +1,2 @@
+Dependencies for Project 'MyFirstArm', Target 'Target 1': (DO NOT MODIFY !)
+F (.\frst.s)(0x5C5F686A)(--cpu Cortex-M7 --fpu=SoftVFP --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM7\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "ARMCM7 SETA 1"--list .\listings\frst.lst --xref -o .\objects\frst.o --depend .\objects\frst.d)
