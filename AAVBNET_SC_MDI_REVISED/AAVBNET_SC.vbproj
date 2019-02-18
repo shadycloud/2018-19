@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{523D6D65-F122-497B-88AC-1CE7D892E75D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AAVBNET_SC.My.MyApplication</StartupObject>
+    <RootNamespace>AAVBNET_SC</RootNamespace>
+    <AssemblyName>AAVBNET_SC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AAVBNET_SC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AAVBNET_SC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmStrings.Designer.vb">
+      <DependentUpon>frmStrings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStrings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGetMonth.Designer.vb">
+      <DependentUpon>frmGetMonth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGetMonth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb" />
+    <Compile Include="frmLoops.Designer.vb">
+      <DependentUpon>frmLoops.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoops.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculator.Designer.vb">
+      <DependentUpon>frmCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotebook.Designer.vb">
+      <DependentUpon>frmNotebook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotebook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDraw.Designer.vb">
+      <DependentUpon>frmDraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMove.Designer.vb">
+      <DependentUpon>frmMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMove.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmButton.Designer.vb">
+      <DependentUpon>frmButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmButton.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClock.Designer.vb">
+      <DependentUpon>frmClock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAAMDICLASS.Designer.vb">
+      <DependentUpon>frmAAMDICLASS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAAMDICLASS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCombo.Designer.vb">
+      <DependentUpon>frmCombo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCombo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOption.Designer.vb">
+      <DependentUpon>frmOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpeed.Designer.vb">
+      <DependentUpon>frmSpeed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpeed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGasMilage.Designer.vb">
+      <DependentUpon>frmGasMilage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGasMilage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmName.Designer.vb">
+      <DependentUpon>frmName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHello.Designer.vb">
+      <DependentUpon>frmHello.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHello.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pickGetDate.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmGetMonth.resx">
+      <DependentUpon>frmGetMonth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoops.resx">
+      <DependentUpon>frmLoops.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculator.resx">
+      <DependentUpon>frmCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotebook.resx">
+      <DependentUpon>frmNotebook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDraw.resx">
+      <DependentUpon>frmDraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMove.resx">
+      <DependentUpon>frmMove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmButton.resx">
+      <DependentUpon>frmButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClock.resx">
+      <DependentUpon>frmClock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAAMDICLASS.resx">
+      <DependentUpon>frmAAMDICLASS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCombo.resx">
+      <DependentUpon>frmCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOption.resx">
+      <DependentUpon>frmOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGasMilage.resx">
+      <DependentUpon>frmGasMilage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHello.resx">
+      <DependentUpon>frmHello.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmName.resx">
+      <DependentUpon>frmName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpeed.resx">
+      <DependentUpon>frmSpeed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStrings.resx">
+      <DependentUpon>frmStrings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caddi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="clsLogin.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
